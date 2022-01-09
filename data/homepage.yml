@@ -1,0 +1,200 @@
+head:
+  title: "Evgeni Nikolaev's Genomic Data Science Portfolio"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Evgeni Nikolaev,"
+  subtitle: "Systems Bioinformatician and Data Scientist"
+  description: "I am a Systems Biologist and a Systems Bioinformatician specializing in Genomic Data Science and Machine Learning with implications in biomedical research of interaction of complex diseases such as infections, cancer, and autoimmunity."
+  image:
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase.png"
+  imageMobile:
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase.png"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Evgeni"
+    URL: "mailto:evgeni.v.nikolaev@gmail.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/evgeni-nikolaev-8a508a135/"
+
+    - icon: "github"
+      URL: "https://github.com/evgeni-v-nikolaev"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: 
+    <p class="lead">
+    <strong>My passion is science</strong>, a combination of biology, math, and coding. 
+    But, when I am not doing research or building software, I enjoy riding my mountain bike to connect with Nature.
+    </p>
+    <p class="lead">
+    <strong>My area of focus</strong> is applying Data Science and Machine Learning to genomics and medicine. 
+    I create value for biologists and medical scientists by bridging static bioinformatics with falsifiable dynamic mechanistic modeling. 
+    I enjoy learning, working with biomedical practitioners, and making better decisions based on data.
+    </p>
+    <p class="lead">
+    <strong>My computer-aided technology</strong> is developing innovative probabilistic data-fusion pipelines to improve data interpretation. 
+    Genomic data interpretation and modeling may begin, for example, with NGS WGS (Whole Genome Sequencing) / WES (Whole Exome Sequencing)
+    analysis of genomic makeups of complex diseases followed by computer-aided reconstruction of gene-regulatory circuits, signaling networks, and metabolic pathways. 
+    Subsequent analysis of top-level models may further predict potential Darwin's irreversible or Lamarckian's reversible mutations.  
+    </p>    
+    <p class="lead">
+    <strong>Success stories</strong> include, for example, one substantial accomplishment based on mechanistic reconstruction of PD1/PDL1 genetic regulation in inflammation,
+    which explained why melanoma-tumor growth progression would accelerate in patients with infectious diseases, including flu. 
+    </p>    
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/evgeni-nikolaev-8a508a135/"
+  image:
+    x: "img/who-am-i/images.jpeg"
+    _2x: "img/who-am-i/images.jpeg"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 20+ years of experience working with bacterial and biomedical data. I design & develop genomic data science products to help biomedical scientists improve data  interpretation and make better data-driven decisions."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/evgeni-nikolaev-8a508a135/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "/cv/cv.pdf"
+
+  items:
+    - title: "Genomic Data Scientist"
+      company: "NIH (remote consulting)"
+      duration: "Jan 2022 - Current"  
+  
+    - title: "Lead Scientist"
+      company: "Air-Force Research Laboratory, Dayton, OH (fixed-term contract)"
+      duration: "May 2019 - Dec 2021"
+  
+    - title: "Quantitative Biologist"
+      company: "Rutgers Cancer Institute of New Jersey, New Brunswick, NJ"
+      duration: "Jan 2011 - Apr 2019"  
+
+    - title: "Founder"
+      company: "Numericine (Numerical Medicine), LLC, Westampton, NJ"
+      duration: "May 2007 - Current"  
+  
+    - title: "Research Associate"
+      company: "Department of Biomedical Engineering, Cornell University, Ithaca, NY"
+      duration: "Jan 2005 - Apr 2007"  
+  
+    - title: "Research Scholar"
+      company: "Department of Chemical Engineering, Penn State, State College, PA"
+      duration: "Oct 2002 - Dec 2004"
+
+    - title: "Metabolic Designer & Team Lead"
+      company: "Integrated Genomocs, Inc., Chicago, IL, USA"
+      duration: "Jul 1999 - Sep 2002"
+
+    - title: "Sr. Scientist & Active Head of Applied Mathematics Laboratory"
+      company: "Institute for Mathematical Problems in Biology (IMPB), Pushchino Research Center, Russian Academy of Sciences, Moscow Reg., Russia"
+      duration: "May 1986 - Jun 1999"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Institute for Mathematical Problems in Biology"
+      year: "1993-1995"
+      degree: "PhD in Differential Equations and Equations of Mathematical Physics (awarded by N.I.Lobachevsky State University of Nizhny Novgorod)"
+
+    - university: "Moscow Engineering Physics Institute"
+      year: "1980-1986"
+      degree: "MS in Applied Mathematics & Mathematical Physics (Red Diploma with Honor)"
+      
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+  
+  enable_clients: false
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+  works:
+    - title: "NET-Seq & DNA-Seq Pipeline"
+      description: "This application helps to analyze transcriptional pausing in bacteria and prototype transcriptional pausing in healthy and cancer individuals. [Research is conducted for NIH.]"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Under Development"
+        URL: "https://github.com/evgeni-v-nikolaev"
+      image:
+        x: "img/works/NET-Seq_1.png"
+        _2x: "img/works/NET-Seq_1.png"
+      is_even: false
+      
+    - title: "Immunobiochemical Reconstruction of Influenza Lung Infection - Melanoma Skin Cancer Interactions"
+      description: "This application was motivated by the need to provide insight into the previously unrecognized acute non-oncogenic infection factor accelerating tumor growth and, more broadly, into the interactions between pathogens and cancer, and precisely, to harness these interactions to improve microbial-based cancer therapy. [Data were provided, and research was conducted for Rutgers Cancer Institute of New Jersey.]"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Publication"
+        URL: "https://www.frontiersin.org/articles/10.3389/fimmu.2019.00004/full"
+      image:
+        x: "img/works/fimmu-10-00004-g003.jpg"
+        _2x: "img/works/fimmu-10-00004-g003.jpg"
+      is_even: false      
+
+# testimonial
+testimonial:
+  enable: false
+  title: "Testimonials"
+  items:
+  
+    - name: "Justin Kurland, PhD"
+      position: "Lead Data Scientist, Northwestern Mutual"
+      content: "In less than 6 months after starting my first Business Science Course with Matt I had fully transitioned into a role as a lead data scientist and my life is better for it!"
+      image:
+        x: "img/testimonials/justin.jpg"
+        _2x: "img/testimonials/justin.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact Evgeni"
+    
+  image:
+    x: "img/who-am-i/images_bio.jpeg"
+    _2x: "img/who-am-i/images_bio.jpeg"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    btnAction: 'mailto:your-email@gmail.com'
+    
+  phone:
+    title: "Phone Number"
+    number: "(856) 685-6126"
+  email:
+    title: "Email"
+    email: '<a href="mailto:evgeni.v.nikolaev@gmail.com">evgeni.v.nikolaev@gmail.com</a>'
+  address:
+    title: "Address"
+    address: "Westamptin, NJ"
+  
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
