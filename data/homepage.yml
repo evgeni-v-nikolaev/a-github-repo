@@ -143,7 +143,7 @@ client_and_work:
       is_even: false
       
     - title: "Immunobiochemical Reconstruction of Influenza Lung Infection - Melanoma Skin Cancer Interactions"
-      description: "This application was motivated by the need to provide insight into the previously unrecognized acute non-oncogenic infection factor accelerating tumor growth and, more broadly, into the interactions between pathogens and cancer, and precisely, to harness these interactions to improve microbial-based cancer therapy. [Data were provided, and research was conducted for Rutgers Cancer Institute of New Jersey.]"
+      description: "This application was motivated by the need to provide insight into the previously unrecognized acute non-oncogenic infection factor accelerating tumor growth and, more broadly, into the interactions between pathogens and cancer, and precisely, to harness these interactions to improve microbial-based cancer therapy. [This application was motivated by the need to provide insight into the previously unrecognized acute non-oncogenic infection factor accelerating tumor growth and, more broadly, into the interactions between pathogens and cancer, and precisely, to harness these interactions to improve microbial-based cancer therapy. [Data were provided by and research was conducted for Rutgers Cancer Institute of New Jersey in collaboration with Harvard Medical School, Boston, MA.]"
       button:
         icon: "icon-arrow-right"
         btnText: "Publication"
